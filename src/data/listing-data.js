@@ -2,7 +2,7 @@ const listingData = [
     {
         image: '/burger-veg.jpg',
         title: 'Veggie Burger',
-        description: 'A classic loaded with crunchy greens and bold flavor.',
+        description: 'A classic with crunchy greens and bold flavor.',
         price: 40.00,
         discount: 20,
     },
@@ -28,7 +28,7 @@ const listingData = [
         discount: 8,
     },
     {
-        image: '/momos',
+        image: '/momos.jpg',
         title: 'Momos',
         description: 'Steamed dumplings with a tender, tasty heart.',
         price: 50.00,
@@ -62,4 +62,6 @@ const listingData = [
         price: 45.00,
         discount: 10,
     },
-]
+];
+
+export default listingData;

@@ -5,6 +5,12 @@ import { LuSalad } from "react-icons/lu";
 import { LiaPepperHotSolid } from "react-icons/lia";
 import { GiCupcake } from "react-icons/gi";
 
+function Button() {
+    return(
+        <button className="headerItem cta-btn">View all</button>
+    )
+}
+
 function Header() {
   return (
     <div className="header">
@@ -32,7 +38,7 @@ function Header() {
         <GiCupcake />
         <p>Sweets</p>
       </div>
-      <button className="headerItem cta-btn">View all</button>
+      <Button />
     </div>
   );
 }
